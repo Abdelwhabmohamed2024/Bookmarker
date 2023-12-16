@@ -1,0 +1,47 @@
+body{
+    background-image: url(../img/hhhh.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container h1{
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: rgb(225, 255, 0);
+    position: relative;
+    
+}
+label{
+    color: rgb(225, 255, 0);
+}
+ h1::after {
+    content: "";
+    position: absolute;
+    
+    width: 26%;
+    height: 25%;
+    left: 410;
+    bottom: 10px;
+    background-color: #ff9d00;
+    transition: height 350ms;
+    z-index: -1;
+}
+.container h2 .one{
+    color: #00ff4c;
+  
+ 
+}
+.container h2 .two{
+ color:  #ffea00;
+}
+.container h2 .onee{
+    color: #00ff4c;
+}
+.container h2 .twoo{
+    color:  #ffea02;
+}
+
+
+
+
+
